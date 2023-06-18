@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('http://fonts.cdnfonts.com/css/museo-sans-cyrl');
+                
+*{
+    transition: all 0.3s;
+}
+body {
+    background: #f7f7f7;
+    font-family: 'Museo Sans Cyrl', sans-serif;
+                                                
+}
