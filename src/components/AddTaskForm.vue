@@ -21,7 +21,7 @@ export default {
     ...mapActions(['addTask']),
     createTask() {
       const task = {
-        text: this.text // Убедитесь, что поле text корректно передается в объект задачи
+        text: this.text
       };
       this.addTask(task);
       this.text = '';
